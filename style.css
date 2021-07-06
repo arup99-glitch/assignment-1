@@ -59,6 +59,7 @@ text-align: center;
 .about-me
 {
     background-image: url(shape.png);
+    background-repeat: no-repeat;
     margin-left: 0%;
 }
 .recipes {
