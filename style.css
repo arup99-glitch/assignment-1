@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.flexiable-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half{
+    width: 50%;
+    padding-left: 3%;
+}
+.backimage{
+    width: 500px;
+    height: 500px;
+    margin:40px 0px 0px 40px;
+}
+.order-food{
+   
+   text-decoration: none; 
+   background-image:linear-gradient(orange, tomato) ;
+   padding: 15px 30px;
+   display: inline-block;
+
+text-align: center; 
+   color: white;
+   font-weight: 600;
+   border-radius: 20px;
+   margin-top: 10px;
+   
+}
+.person{
+    width: 400px;
+    height: 500px;
+    margin:40px 0px 0px 40px;
+
+}
+.contact-me
+{
+    
+   text-decoration: none; 
+   background-image:linear-gradient(orange, tomato) ;
+   padding: 15px 30px;
+   display: inline-block;
+   color: white;
+   font-weight: 600;
+   border-radius: 20px;
+   margin-top: 60px;
+   
+   
+}
+.about-me
+{
+    background-image: url(shape.png);
+    margin-left: 0%;
+}
+.recipes {
+    text-align: center;
+    
+    margin: auto;
+}
+.food{
+    width: 300px;
+    height: 200px;
+    
+    margin: auto;
+    display: block;
+    
+}
+.box
+{
+      width:30%;
+      margin-left: 3%;
+      margin-right: 3%;
+      padding-top: 10px;
+      padding-left:3px ;
+      box-shadow: 10px 10px 40px gray ;
+      border-radius: 30px;
+      padding: 20px;
+}
+.footer-tag
+{
+    background-color: black;
+    text-align: center;
+    color: cornsilk;
+    padding: 50px 0px 50px 0px;
+}
+.cuisines{
+    color: firebrick;
+    padding: 50px;
+}
+.category-section{
+    display: flex;
+    justify-content: center;
+}
+.contact-section{
+    text-align: center;
+}
+.message-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.form-item{
+    margin: 6px 0px 6px 0px;
+    padding: 13px;
+}
+.submit-button{
+    width: 20%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+
+}
